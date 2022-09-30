@@ -79,9 +79,9 @@ public class Order  {
         orderPlaced.publishAfterCommit();
 
         // Get request from Store
-        //team.external.Store store =
-        //    Application.applicationContext.getBean(team.external.StoreService.class)
-        //    .getStore(/** mapping value needed */);
+        team.external.Store store =
+            Application.applicationContext.getBean(team.external.StoreService.class)
+            .getStore(/** mapping value needed */);
 
     }
 
