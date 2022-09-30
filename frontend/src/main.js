@@ -48,7 +48,6 @@ pluralCaseList.push( {plural: "deliveries", pascal: "Delivery"} )
 
 pluralCaseList.push( {plural: "orders", pascal: "Order"} )
 
-pluralCaseList.push( {plural: "productLists", pascal: "ProductList"} )
 pluralCaseList.push( {plural: "orderHistories", pascal: "OrderHistory"} )
 pluralCaseList.push( {plural: "stores", pascal: "Store"} )
 

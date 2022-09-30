@@ -11,8 +11,6 @@ import DeliveryDetail from "./components/listers/DeliveryDetail"
 import OrderManager from "./components/listers/OrderCards"
 import OrderDetail from "./components/listers/OrderDetail"
 
-import ProductListView from "./components/ProductListView"
-import ProductListViewDetail from "./components/ProductListViewDetail"
 import OrderHistoryView from "./components/OrderHistoryView"
 import OrderHistoryViewDetail from "./components/OrderHistoryViewDetail"
 import StoreManager from "./components/listers/StoreCards"
@@ -54,16 +52,6 @@ export default new Router({
                 component: OrderDetail
             },
 
-            {
-                path: '/productLists',
-                name: 'ProductListView',
-                component: ProductListView
-            },
-            {
-                path: '/productLists/:id',
-                name: 'ProductListViewDetail',
-                component: ProductListViewDetail
-            },
             {
                 path: '/orderHistories',
                 name: 'OrderHistoryView',
